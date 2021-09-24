@@ -1,1 +1,48 @@
 /*Maak hier jouw CSS!*/
+
+.container {
+    background-color: bisque;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 240px 100px auto 50px;
+    grid-template-areas:
+            "A C C"
+            "B C C"
+            "B E D"
+            "B E D"
+            "F F F";
+}
+
+.grid-item {
+    background-color: darkred;
+    padding: 8px;
+}
+
+#A {
+    grid-area: A;
+}
+
+#B {
+    grid-area: B;
+}
+
+#C {
+    grid-area: C;
+}
+
+#D {
+    grid-area: D;
+}
+
+#E {
+    grid-area: E;
+}
+
+#F {
+    grid-area: F;
+}
+
+@media screen and {
+
+}
