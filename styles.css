@@ -1,5 +1,9 @@
 /*Maak hier jouw CSS!*/
 
+body {
+    background-color: bisque;
+}
+
 .container {
     background-color: bisque;
     display: grid;
@@ -17,6 +21,9 @@
 .grid-item {
     background-color: darkred;
     padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #A {
